@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ralph's Portfolio Site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <nav>
+      <span class="logo">RALPH'S PROJECTS</span>
+      <span id="others">
+        <span>Home</span>
+        <span>Motivation</span>
+        <span>about</span>
+        <span>Contact</span>
+      </span>
+    </nav>
+
+    <div class="admin_info">
+      <p class="admin_text">Site Info: Admin Site</p>
+      <div class="add_project">
+        <button class="add_new">Add new Projects</button>
+      </div>
+    </div>
+
+    <section class="projects">
+      <div>
+        <p>Project Name: Daily UI 001 - Form</p>
+        <p>Project link: <a href = 'https://vicradon.github.io/Daily-UI-001'>Daily UI 1</a></p>
+        <p>Project Description: A simple form. As part of the daily UI challenges</p>
+      </div>
+    </section>
+    <section id="add_projects">
+      <!-- Modal content -->
+      <div class="modal">
+        <div class="modal-content">
+          <span class="close_modal">&times;</span>
+          <form id="form1">
+            <label><p>Project Name </p><input type="text" id="project_name" placeholder="enter project name"></label>
+            <label><p>Project Link </p><input type="text" id="project_link" placeholder="enter project link"></label>
+            <label><p>Project Description</p> <textarea id="project_description"></textarea></label>
+            
+          </form>
+          <button id="add_to_projects">ADD</button>
+        </div>
+      </div>
+  </div>
+  </section>
+
+  <footer>
+    <p>Copyright &copy; 2019 Ralph's Portfolio Site</p>
+  </footer>
+  </div>
+</body>
+<script src="script.js"></script>
+
+</html>
